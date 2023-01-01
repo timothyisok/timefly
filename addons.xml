@@ -5,9 +5,9 @@
 			<import addon="xbmc.addon" version="12.0.0"/>
 		</requires>
 		<extension point="xbmc.addon.repository">
-			<info compressed="true">https://raw.githubusercontent.com/timothyisok/timefly/master/addons.xml</info>
-			<checksum>https://raw.githubusercontent.com/timothyisok/timefly/master/addons.xml.md5</checksum>
-			<datadir zip="true">https://raw.githubusercontent.com/timothyisok/timefly/master/</datadir>
+			<info compressed="true">https://raw.githubusercontent.com/timothyisok/timefly/main/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/timothyisok/timefly/main/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/timothyisok/timefly/main/</datadir>
 		</extension>
 		<extension point="xbmc.addon.metadata">
 			<summary>timefly repository</summary>
