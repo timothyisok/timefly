@@ -1,6 +1,6 @@
 **插件库插件：**
 
-* repository.timefly - 中文插件库
+* repository.timefly.github - 中文插件库
 
 
 **皮肤插件：**
