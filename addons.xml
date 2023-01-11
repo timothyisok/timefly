@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-	<addon id="repository.timefly.github" name="timefly中文插件库@github" version="1.0.0" provider-name="Tim">
+	<addon id="repository.timefly.gitcode" name="timefly中文插件库@gitcode" version="1.0.0" provider-name="Tim">
 		<requires>
 			<import addon="xbmc.addon" version="12.0.0"/>
 		</requires>
 		<extension point="xbmc.addon.repository">
-			<info compressed="true">https://raw.githubusercontent.com/timothyisok/timefly/main/addons.xml</info>
-			<checksum>https://raw.githubusercontent.com/timothyisok/timefly/main/addons.xml.md5</checksum>
-			<datadir zip="true">https://raw.githubusercontent.com/timothyisok/timefly/main/</datadir>
+			<info compressed="true">https://gitcode.net/kodi/timefly/-/raw/master/addons.xml</info>
+			<checksum>https://gitcode.net/kodi/timefly/-/raw/master/addons.xml.md5</checksum>
+			<datadir zip="true">https://gitcode.net/kodi/timefly/-/raw/master/</datadir>
 		</extension>
 		<extension point="xbmc.addon.metadata">
-			<summary>timefly repository @github</summary>
-			<summary lang="zh">timefly中文插件库@github</summary>
+			<summary>timefly repository @gitcode</summary>
+			<summary lang="zh">timefly中文插件库@gitcode</summary>
 			<description>Download and install add-ons from timefly repository.</description>
 			<description lang="zh">从timefly中文插件库下载安装插件。</description>
 			<disclaimer>Tim did not make all the add-ons on this repository and is not responsible for the content.</disclaimer>
@@ -246,7 +246,7 @@
 
 	<addon id="metadata.tv.themoviedb.org"
 		   name="The Movie Database (免Hosts)"
-		   version="3.5.12"
+		   version="3.5.14"
 		   provider-name="Team Kodi">
 	  <requires>
 		<import addon="xbmc.metadata" version="2.1.0"/>
