@@ -341,7 +341,7 @@
 	  </extension>
 	</addon>
 
-	<addon id="script.estuary.reboot-to-emmc" name="Reboot to eMMC/NAND for Estuary" version="2.2.0" provider-name="Tim">
+	<addon id="script.estuary.reboot-to-emmc" name="Reboot to eMMC/NAND for Estuary" version="2.2.1" provider-name="Tim">
 		<requires>
 			<import addon="xbmc.python" version="3.0.0" />
 		</requires>
@@ -349,13 +349,17 @@
 			<provides>executable</provides>
 		</extension>
 		<extension point="xbmc.addon.metadata">
+			<news>v1.0.0 - Initial version</news>
+			<assets>
+				<icon>icon.png</icon>
+			</assets>
 			<summary lang="en">Add "Reboot to eMMC/NAND" button to shutdown menu</summary>
 			<summary lang="zh">添加 "Reboot to eMMC/NAND" 按钮到关机菜单</summary>
 			<platform>linux</platform>
 		</extension>
 	</addon>
 
-	<addon id="skin.estuaryplus" version="2.2.0" name="Estuary Plus" provider-name="phil65, Ichabod Fletchman, Guilouz, Tim">
+	<addon id="skin.estuaryplus" version="2.2.1" name="Estuary Plus" provider-name="phil65, Ichabod Fletchman, Guilouz, Tim">
 		<requires>
 			<import addon="xbmc.gui" version="5.15.0"/>
 			<import addon="xbmc.python" version="3.0.0" />
@@ -371,6 +375,14 @@
 			<res width="2160" height="1080" aspect="18:9" default="false" folder="xml" />
 		</extension>
 		<extension point="xbmc.addon.metadata">
+			<news>v1.0.0 - Initial version</news>
+			<assets>
+				<icon>resources/icon.png</icon>
+				<fanart>resources/fanart.jpg</fanart>
+				<screenshot>resources/screenshot-01.jpg</screenshot>
+				<screenshot>resources/screenshot-02.jpg</screenshot>
+				<screenshot>resources/screenshot-03.jpg</screenshot>
+			</assets>
 			<summary lang="af_ZA">Estuary oortreksel deur phil65. (Kodi se bestek oortreksel)</summary>
 			<summary lang="bg_BG">Estuary облик от phil65 и Piers. (стандартния облик на Kodi)</summary>
 			<summary lang="ca_ES">Aparença Estuary per phil65 i Piers. (aparença predeterminada de Kodi)</summary>
@@ -466,13 +478,6 @@
 			<license>CC BY-SA 4.0, GNU GENERAL PUBLIC LICENSE Version 2.0</license>
 			<forum>http://forum.kodi.tv/</forum>
 			<source>https://github.com/xbmc/skin.estuary/</source>
-			<assets>
-				<icon>resources/icon.png</icon>
-				<fanart>resources/fanart.jpg</fanart>
-				<screenshot>resources/screenshot-01.jpg</screenshot>
-				<screenshot>resources/screenshot-02.jpg</screenshot>
-				<screenshot>resources/screenshot-03.jpg</screenshot>
-			</assets>
 		</extension>
 	</addon>
 </addons>
