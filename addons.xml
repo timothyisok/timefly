@@ -25,6 +25,26 @@
 		</extension>
 	</addon>
 
+	<addon id="plugin.video.gittv" name="GitTV网络电视" version="1.0.0" provider-name="Timothy">
+		<requires>
+			<import addon="xbmc.python" version="3.0.0" />
+		</requires>
+		<extension point="xbmc.python.pluginsource" library="default.py">
+			<provides>video</provides>
+		</extension>
+		<extension point="xbmc.addon.metadata">
+			<news>v1.0.0 - Initial version</news>
+			<assets>
+				<icon>icon.png</icon>
+			</assets>
+			<summary lang="en">GitTV IPTV Plugin</summary>
+			<summary lang="zh">GitTV网络电视插件</summary>
+			<description lang="en">>This add-on is only for testing and communication. The content of the add-on is collected from internet. Do not trust any advertisement in the add-on and delete it in time after downloading.</description>
+			<description lang="zh">本插件仅供测试交流，插件内容收集于网络，并非官方APP，请勿相信插件中任何广告，下载插件后请及时删除，不得用作其他用途。</description>
+			<platform>all</platform>
+		</extension>
+	</addon>
+
 	<addon id="metadata.movie.douban.com" name="豆瓣电影" version="1.2.12" provider-name="Timothy">
 		<requires>
 			<import addon="xbmc.metadata" version="2.1.0"/>
@@ -43,12 +63,12 @@
 		</extension>
 	</addon>
 
-	<addon id="metadata.movie.mtime.com.python" name="时光电影Python" version="1.0.0" provider-name="Timothy">
+	<addon id="metadata.movie.mtime.com.python" name="时光电影Python" version="1.0.1" provider-name="Timothy">
 		<requires>
-			<import addon="xbmc.metadata" version="2.1.0"/>
-			<import addon="xbmc.python" version="3.0.0"/>
+			<import addon="xbmc.metadata" version="2.1.0" />
+			<import addon="xbmc.python" version="3.0.0" />
 		</requires>
-		<extension point="xbmc.metadata.scraper.movies" library="mtime.py"/>	
+		<extension point="xbmc.metadata.scraper.movies" library="mtime.py" />	
 		<extension point="xbmc.addon.metadata">
 			<reuselanguageinvoker>true</reuselanguageinvoker>
 			<news>v1.0.0 - Initial version</news>
@@ -64,12 +84,12 @@
 		</extension>
 	</addon>
 
-	<addon id="metadata.movie.simple.python" name="简易文件名Python" version="1.0.0" provider-name="Timothy">
+	<addon id="metadata.movie.simple.python" name="简易文件名Python" version="1.0.1" provider-name="Timothy">
 		<requires>
-			<import addon="xbmc.metadata" version="2.1.0"/>
-			<import addon="xbmc.python" version="3.0.0"/>
+			<import addon="xbmc.metadata" version="2.1.0" />
+			<import addon="xbmc.python" version="3.0.0" />
 		</requires>
-		<extension point="xbmc.metadata.scraper.movies" library="simple.py"/>	
+		<extension point="xbmc.metadata.scraper.movies" library="simple.py" />	
 		<extension point="xbmc.addon.metadata">
 			<reuselanguageinvoker>true</reuselanguageinvoker>
 			<news>v1.0.0 - Initial version</news>
@@ -225,12 +245,12 @@
 		</extension>
 	</addon>
 
-	<addon id="metadata.tv.mtime.com.python" name="时光电视剧Python" version="1.0.0" provider-name="Timothy">
+	<addon id="metadata.tv.mtime.com.python" name="时光电视剧Python" version="1.0.1" provider-name="Timothy">
 		<requires>
-			<import addon="xbmc.metadata" version="2.1.0"/>
-			<import addon="xbmc.python" version="3.0.0"/>
+			<import addon="xbmc.metadata" version="2.1.0" />
+			<import addon="xbmc.python" version="3.0.0" />
 		</requires>
-		<extension point="xbmc.metadata.scraper.tvshows" library="mtime.py"/>	
+		<extension point="xbmc.metadata.scraper.tvshows" library="mtime.py" />	
 		<extension point="xbmc.addon.metadata">
 			<reuselanguageinvoker>true</reuselanguageinvoker>
 			<news>v1.0.0 - Initial version</news>
