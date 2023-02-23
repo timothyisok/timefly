@@ -27,6 +27,11 @@
 * metadata.movie.simple.python - 简易文件名Python刮削器
 
 
+**视频插件：**
+
+* plugin.video.gittv - GitTV网络电视插件
+
+
 **免责声明：**
 
 1. 本插件库中的插件不完全由Tim开发，所有插件仅供测试与交流，下载后请及时删除，不得用作其他用途；
