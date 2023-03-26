@@ -379,7 +379,7 @@
 		</extension>
 	</addon>
 
-	<addon id="skin.estuaryplus" version="2.2.3" name="Estuary Plus" provider-name="phil65, Ichabod Fletchman, Guilouz, Tim">
+	<addon id="skin.estuaryplus" version="2.2.4" name="Estuary Plus" provider-name="phil65, Ichabod Fletchman, Guilouz, Tim">
 		<requires>
 			<import addon="xbmc.gui" version="5.15.0"/>
 			<import addon="xbmc.python" version="3.0.0" />
