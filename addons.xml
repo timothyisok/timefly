@@ -362,6 +362,27 @@
 		</assets>
 	  </extension>
 	</addon>
+	
+	<addon id="service.subtitles.assrt-net" name="assrt.net" version="1.0.0" provider-name="Timothy">
+		<requires>
+			<import addon="xbmc.python" version="3.0.0" />
+			<import addon="script.module.beautifulsoup4" version="4.9.3" />
+		</requires>
+		<extension point="xbmc.subtitle.module" library="service.py" />
+		<extension point="xbmc.addon.metadata">
+			<news>v1.0.0 - Initial version</news>
+			<assets>
+				<icon>icon.png</icon>
+				<clearlogo>logo.png</clearlogo>
+			</assets>
+			<summary lang="en">Shooter Subtitle Service</summary>
+			<summary lang="zh"> 射手网(伪)字幕插件</summary>
+			<description lang="en">Download subtitle from assrt.net</description>
+			<description lang="zh">从射手网(伪)下载字幕。</description>
+			<platform>all</platform>
+			<website>https://assrt.net/</website>
+		</extension>
+	</addon>
 
 	<addon id="script.estuary.reboot-to-emmc" name="Reboot to eMMC/NAND for Estuary" version="2.2.1" provider-name="Tim">
 		<requires>
