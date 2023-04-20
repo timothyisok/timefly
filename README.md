@@ -27,6 +27,11 @@
 * metadata.movie.simple.python - 简易文件名Python刮削器
 
 
+**字幕插件：**
+
+* service.subtitles.assrt-net - 射手网(伪)字幕插件
+
+
 **视频插件：**
 
 * plugin.video.gittv - GitTV网络电视插件
