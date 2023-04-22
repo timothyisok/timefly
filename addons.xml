@@ -363,7 +363,7 @@
 	  </extension>
 	</addon>
 	
-	<addon id="service.subtitles.assrt-net" name="assrt.net" version="1.0.0" provider-name="Timothy">
+	<addon id="service.subtitles.assrt-net" name="assrt.net" version="1.0.1" provider-name="Timothy">
 		<requires>
 			<import addon="xbmc.python" version="3.0.0" />
 			<import addon="script.module.beautifulsoup4" version="4.9.3" />
@@ -376,7 +376,7 @@
 				<clearlogo>logo.png</clearlogo>
 			</assets>
 			<summary lang="en">Shooter Subtitle Service</summary>
-			<summary lang="zh"> 射手网(伪)字幕插件</summary>
+			<summary lang="zh">射手网(伪)字幕插件</summary>
 			<description lang="en">Download subtitle from assrt.net</description>
 			<description lang="zh">从射手网(伪)下载字幕。</description>
 			<platform>all</platform>
