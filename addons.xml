@@ -25,7 +25,7 @@
 		</extension>
 	</addon>
 
-	<addon id="plugin.video.gittv" name="GitTV网络电视" version="1.0.1" provider-name="Timothy">
+	<addon id="plugin.video.gittv" name="GitTV网络电视" version="1.0.2" provider-name="Timothy">
 		<requires>
 			<import addon="xbmc.python" version="3.0.0" />
 		</requires>
