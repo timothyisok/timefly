@@ -107,7 +107,7 @@
 
 	<addon id="metadata.movie.themoviedb.org"
 		   name="The Movie Database (免Hosts)"
-		   version="5.2.6"
+		   version="5.2.7"
 		   provider-name="Team Kodi">
 	  <requires>
 		<import addon="xbmc.metadata" version="2.1.0"/>
@@ -270,7 +270,7 @@
 
 	<addon id="metadata.tv.themoviedb.org"
 		   name="The Movie Database (免Hosts)"
-		   version="3.5.14"
+		   version="3.5.15"
 		   provider-name="Team Kodi">
 	  <requires>
 		<import addon="xbmc.metadata" version="2.1.0"/>
